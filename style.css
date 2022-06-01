@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+header{
+    color: #707070;
+}
+
+.absolut{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: white;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    
+}
+
+.container{
+    
+    height: 70px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px;
+    margin-left: 30%;
+}
+
+
+h2{
+    width: 20%;
+    font-size: 2rem;
+    color: black;
+    
+    margin: 180px;
+}
+
+h2:hover{
+        transform: scale(1);
+        color: rgb(20, 115, 230);
+        border-radius: 30px;
+        transition: 1s all;
+}
+
+.menu{
+    height: 60px;
+    width: 70%;
+   display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   cursor: pointer;
+   
+   
+}
+ul{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-left: 30%;
+}
+li{
+    align-items: center;
+    padding: 11px;
+    color: black;
+}
+
+li:hover{
+        transform: scale(1.1);
+        color: rgb(20, 115, 230);
+        border-radius: 30px;
+        transition: 1s all;
+}
+
+.port{
+    font-size: 130%;
+}
+
+
+main{
+    display: flex;
+    
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-image: url("imagens/laranja\ azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+
+.demonstração{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 70%;
+    color: white;
+    
+    align-items: center;
+    
+}
+
+.titulo{
+    width: 80%;
+    height: 30%;
+    font-size: 4rem;
+    margin-left: 4%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 0 auto;
+    
+}
+.fale{
+    width: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 4%;  
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.fale:hover{
+    transform: scale(1.1);
+    color: white;
+    transition: 1s all;
+
+}
+
+
+a{
+    color: white;
+}
+/*aqui termina a header */
+
+/*aqui começa a main*/
+
+.container3{
+    
+    width: 67%;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+    
+    margin-bottom: 60px;
+}
+
+.figuras{
+    width: 98%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0% auto;
+    transition: 1s all;
+    
+}
+
+figure{
+    width: 90%;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+img{
+    width: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 1%;
+    
+}
+
+.imgs{
+    width: 33vh;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 2px;
+    transition: 2s all;
+    
+}
+
+.imgs:hover{
+    transform: scale(1.1);
+    background-color: rgb(20, 115, 230);
+    border-radius: 50%;
+}
+/*Aqui termina a main*/
+
+.footer{
+    background-color: #dbd8d8ab;
+    display: flex;
+    margin-top: 1%;
+    padding: 1%;
+    
+}
+
+.footerfig{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    margin: 1%;
+    padding-left: 16%;
+    
+    justify-content: center;
+}
+
+.divfot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fig{
+    width: 50%;
+    margin: 10px;
+    height: 1.6vw;
+}
+.Gabriel{
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 700px){
+    .absolut{
+        
+        width: 100%;
+        height: 50px;
+    }
+    .hamburguer{
+        position:absolute;
+        justify-content: center;
+        align-items: center;
+        width: 13%;
+        height: 50px;
+        background-image: url("imagens/botaomenu.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    .cabeçalho{
+        width: 600px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .container{
+        width: 1px;
+        height: 5px;
+        background-color: #7FDBD4;
+    }
+
+    .menu{
+        
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2%;
+        
+    }
+
+    @media screen and (max-width: 700px) {
+        .menu{
+            display: none;
+        }
+        
+    }
+
+
+    ul{
+        
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    li{
+        font-size: 15px;
+        flex-wrap: wrap;
+        padding: 5%;
+
+    }
+    li:hover{
+        color: rgb(20, 115, 230);
+    }
+
+    h2{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        margin-right: 80px;
+        
+        
+    }
+
+    h2:hover{
+        transform: scale(1.1);
+        color: rgb(20, 115, 230);
+        border-radius: 30px;
+        transition: 1s all;
+    }
+    
+    .container2{
+        width: 600px;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url("imagens/laranja\ azul\ logo.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    .demonstração{
+        width: 600px;
+        height: 40%;
+        display: flex;
+        
+        align-items: flex-end;
+        margin-top: 50%;
+    }
+    
+    .titulo{
+        height: 300px;
+        font-size: 80px;
+        
+        
+        justify-content: end;
+        align-items: flex-end;
+    }
+    .fale{
+        margin-top: 20px;
+        
+        width: 150px;
+        height: 5%;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .port{
+        font-size: 05px;
+        
+    }
+        
+}
+
+
+
+
+
+/*Aqui acaba o responsivo da header*/
+
+
+/*Aqui inicia o responsivo da main*/
+
+
+@media (max-width: 700px){
+    .container3{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0% auto;
+    }
+    .figuras{
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0% auto;
+        
+    }
+    .imgs{
+        width: 400px;
+        
+        
+    }
+    .imgs:hover{
+        transform: scale(1.1);
+        background-color: rgb(20, 115, 230);
+        border-radius: 90%;
+    }
+}
+
+/*Aqui termina o responsivo da main*/
+
+
+/*Aqui começa o responsivo da footer*/
+
+@media (max-width: 700px){
+    footer{
+        width: 600px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0% auto;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+
+    .footerfig{
+        width: 500px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .divfot{
+        width: 60px;
+        height: 50%;
+        background-color: #7FDBD4;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fig{
+        width: 5vw;
+        height: 30px;
+    }
+
+    .gbbot{
+        display: flex;
+        width: 75%;
+        height: 73px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+    }
+
+    .Gabriel{
+        display: flex;
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .botao{
+        width: 80px;
+        height: 40px;
+        color: #CCCCCC;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #333333;
+        border: none;
+        margin-left: 155px;
+        align-items: center;
+    }
+    .copy{
+        font-size: 19px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+}
+
+
+@media (min-width: 700px){
+    .botao{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+    
